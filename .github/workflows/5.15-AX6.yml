@@ -101,7 +101,7 @@ jobs:
     - name: Apply ssrp patch
       id: patch
       run: |
-        /bin/bash /workdir/ssrp-patch.sh
+        /bin/bash /home/runner/work/ax6-openwrt/ax6-openwrt/ssrp-patch.sh
 
     - name: Compile the firmware
       id: compile
